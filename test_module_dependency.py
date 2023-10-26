@@ -10,7 +10,7 @@ def main():
         .getOrCreate()
     
     df = spark.createDataFrame(
-        [(1, 1.0), (1, 2.0), (2, 3.0), (2, 5.0), (2, 10.0)],
+        [(1, 1.0), (2, 2.0), (3, 3.0)],
         ("id", "v"))
 
     tripple_udf = udf(lambda x: my_tripple(x), LongType())
