@@ -79,7 +79,8 @@ test_file_dependency.py
 - 先 zip 打包模块
 ```bash
 cd pyspark_submit_sample
-zip -r ../pyspark_submit_sample.zip .
+zip -r ../module_dependency.zip .
+mv ../module_dependency.zip ./
 ```
 - local
 ```bash

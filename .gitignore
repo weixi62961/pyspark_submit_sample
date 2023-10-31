@@ -1,3 +1,4 @@
 __pycache__
 *.zip
+!module_dependency.zip
 *.tar.gz
